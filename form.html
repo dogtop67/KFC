@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замовлення</title>
+  <link rel="stylesheet" href="style_form.css">
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="order-container">
+        <h2>Замовлення</h2>
+    
+        <form action="done.html">
+            <div class="input-group">
+                <label>Номер карти</label>
+                <input type="text" placeholder="0000 0000 0000 0000" maxlength="16" required>
+            </div>
+
+            <div class="input-group">
+                <label>Адреса доставки</label>
+                <textarea placeholder="Вулиця, будинок, квартира" required></textarea>
+            </div>
+
+            <button type="submit" class="order-button">Замовити</button>
+            <a href="index.html" class="back-link">← Повернутися назад</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
